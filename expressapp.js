@@ -109,3 +109,10 @@ app.delete('/api/birds/del_bird/:id', (req,res) => {
 
 const port = process.env.PORT || 3000;
 app.listen(port, () => {console.log (`Server is running on port ${port}.`)});
+
+
+// can be run by editing package.json like this:
+//"scripts": {
+//    "start":"node expressapp.js", // runs with npm start command
+//		"dev":"node expressapp.js" // or this runs with npm run dev command
+//  }
