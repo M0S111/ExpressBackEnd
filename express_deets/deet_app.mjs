@@ -18,8 +18,7 @@ let things = [
 
 
 app.get('/',(req,res) => {
-	res.send(`<h1 
-		align='center' style='color:red'>The server is serving on port ${process.env.PORT} &#128516;</h1><hr>`);
+	res.send(`<h1 align='center' style='color:red'>The server is serving on port ${process.env.PORT} &#128516;</h1><hr>`);
 });
 
 app.get('/ftw',(req,res) => {
